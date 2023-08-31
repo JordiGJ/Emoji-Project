@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(144, 169, 63);
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  font-size: 2rem;
+  color: aliceblue;
+  margin-bottom: 1.5rem;
+}
+button {
+  font-size: 5rem;
+  border: none;
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  filter: grayscale(0);
+  transition: filter 0.2s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+button:hover {
+  filter: grayscale();
+}
+p {
+  font-weight: bolder;
+  color: rgb(1, 1, 33);
+}
